@@ -9,6 +9,15 @@ from py_utils.logger import set_logging, plog
 # Llamada a la funcion para configurar el logging
 set_logging(log_file='redes_neuronales_artificiales.log')
 
+i1 = InputData(x=0.1)
+i2 = InputData(x=0.2)
+i3 = InputData(x=0.3)
+
+b1 =random . random () 
+p1= Perceptron(inputs= b=b1)
+
+
+
 # Ejercicio 1: Red de una neurona.
 #
 # TODO: Crea una red neuronal de un solo perceptrón y una sola entrada con los objetos previamente creados.
